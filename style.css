@@ -1,0 +1,116 @@
+.displayThis {
+		display: block !important;
+	}
+
+	.curriculum .subject .contentDiv {
+		display: none;
+	}
+.div2 {
+	margin-bottom: 2%
+}
+
+.filterDiv form {
+	padding: 2%
+}
+
+.card {
+	margin-bottom: 2%;
+}
+
+.form-group * {
+    pointer-events: none
+}
+
+.hiddenDivs .container div hr {
+	border-top: 1px solid orange;
+}
+.hiddenDivs  {
+	overflow: visible;
+	background-color: #ebebeb;
+    border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.hiddenDivs .border-around .showIt {
+	display: block !important;
+}
+.hiddenDivs .border-around .toggleIt {
+	display: block;
+	transition: ease .5s all;
+}
+
+.filterDiv label input[type=checkbox],
+.filterDiv input[type=radio] {
+	margin: 2px 6px 0 0;
+}
+
+.hiddenDivs .expandTitle {
+	background: #054166;
+	border-radius: 3px;
+    padding: 2px 10px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+}
+
+.hiddenDivs .tooltiptext {
+	display: none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    width: 220px;
+    height: auto;
+    bottom: 35px;
+    left: 15%;
+    font-size: 0.75em;
+    box-shadow: 0 1px 10px 1px #888;
+}
+
+.hiddenDivs .expandTitle:hover .tooltiptext {
+	display: block !important
+}
+
+.hiddenDivs .expandTitle .openCloseIcon {
+	float: right;
+}
+
+.hiddenDivs .hiddenContent {
+	height: 0px;
+	overflow: hidden;
+	padding: 0 4%;
+}
+
+.hiddenDivs .showHiddenContent {
+	height: 100%;
+}
+
+.closeCardsBtn {
+	position: absolute;
+    right: -5px;
+    background: #ef404a;
+    top: -5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 15%;
+    font-size: .85em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.toggleCardDisplay {
+	display: none !important;
+	border: 0px !important;
+}
+
+
+
+
+
+
