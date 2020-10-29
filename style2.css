@@ -1,0 +1,9 @@
+.alert .btn {
+    display: none;
+}
+.hiddenDivs .expandTitle:hover .tooltiptext {
+	display: none !important;
+}
+.alert .saveAsPDF {
+    display: block;
+}
