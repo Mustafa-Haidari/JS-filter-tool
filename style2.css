@@ -7,3 +7,6 @@
 .alert .saveAsPDF {
     display: block;
 }
+.card .closeCardsBtn, .card .hiddenDivs .closeSeparatedBtn {
+    display: none !important;
+}
