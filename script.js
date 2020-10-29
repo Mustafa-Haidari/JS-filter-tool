@@ -19,11 +19,11 @@ const separatedDivs = document.querySelectorAll(".border-around .separatedDivs")
 function printPageArea(areaID) {
 	var printContent = document.getElementById(areaID);
 	var WinPrint = window.open('', '', 'left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0');
-	WinPrint.document.write('<link rel="stylesheet" type="text/css" href="file:///Users/mhaidari/Downloads/Filtering/style2.css">');
-	WinPrint.document.write('<link rel="stylesheet" type="text/css" href="file:///Users/mhaidari/Downloads/Filtering/style.css">');
+	WinPrint.document.write('<link rel="stylesheet" type="text/css" href="/style2.css">');
+	WinPrint.document.write('<link rel="stylesheet" type="text/css" href="/style.css">');
 	WinPrint.document.write('<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">');
 	WinPrint.document.write(printContent.innerHTML);
-	WinPrint.document.write('<script src="file:///Users/mhaidari/Downloads/Filtering/script2.js"></script>');
+	WinPrint.document.write('<script src="/script2.js"></script>');
 	WinPrint.document.title = "Curriculum - " + forPrintTitle;
 	WinPrint.document.close();
 	WinPrint.focus();
